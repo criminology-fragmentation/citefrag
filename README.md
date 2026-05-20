@@ -9,7 +9,7 @@
 
 **citefrag** measures within-group versus between-group citation preference in longitudinal journal panels. It implements the pair-averaged fragmentation ratio, exact and Monte Carlo permutation tests, directional asymmetry analysis, a suite of robustness checks, and piecewise regression with bootstrap confidence intervals for locating structural breaks in ratio trajectories.
 
-The package was developed to accompany Vakhitova (2026) on the fragmentation of criminology, but the machinery is general to any longitudinal node-by-node exchange network with a priori group labels. It works on journals grouped by research tradition, departments grouped by discipline, countries grouped by region, or any comparable setting where the question is whether nodes exchange more intensely with their own kind than across group boundaries.
+The package was developed to accompany a paper on the fragmentation of criminology, but the machinery is general to any longitudinal node-by-node exchange network with a priori group labels. It works on journals grouped by research tradition, departments grouped by discipline, countries grouped by region, or any comparable setting where the question is whether nodes exchange more intensely with their own kind than across group boundaries.
 
 ## Installation
 
@@ -17,7 +17,7 @@ You can install the development version from GitHub:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("zarina-vakhitova/citefrag")
+remotes::install_github("criminology-fragmentation/citefrag")
 ```
 
 Once the package is on CRAN, installation will be:
@@ -187,25 +187,6 @@ If you use `citefrag` in published work, please cite both the package and the pa
 citation("citefrag")
 ```
 
-In BibTeX:
-
-``` bibtex
-@Manual{vakhitova2026citefrag,
-  title   = {citefrag: Measuring Fragmentation in Longitudinal Citation Networks},
-  author  = {Zarina Vakhitova},
-  year    = {2026},
-  note    = {R package version 0.1.0},
-  url     = {https://github.com/zvakhitova/citefrag}
-}
-
-@Article{vakhitova2026fragmentation,
-  title   = {The Fragmentation of Criminology: A Longitudinal Citation Network Analysis},
-  author  = {Zarina Vakhitova},
-  year    = {2026},
-  note    = {Manuscript in preparation}
-}
-```
-
 ## Related references
 
 Aria, M., and Cuccurullo, C. (2017). bibliometrix: An R-tool for comprehensive science mapping analysis. *Journal of Informetrics*, 11(4), 959-975.
@@ -216,7 +197,7 @@ Csárdi, G., and Nepusz, T. (2006). The igraph software package for complex netw
 
 ## Bug reports and feature requests
 
-Please report bugs and request features on the [GitHub issues page](https://github.com/zvakhitova/citefrag/issues). Pull requests are welcome.
+Please report bugs and request features on the [GitHub issues page](https://github.com/criminology-fragmentation/citefrag/issues). Pull requests are welcome.
 
 ## License
 
