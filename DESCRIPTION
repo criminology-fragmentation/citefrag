@@ -10,7 +10,7 @@ Description: Tools for measuring within-group versus between-group citation
     alternative-specification and fixed-subpanel robustness checks, and 
     piecewise regression with bootstrap confidence intervals for locating 
     structural breaks in ratio trajectories. Developed to accompany 
-    Vakhitova (2026) on the fragmentation of criminology; the machinery 
+    paper on the fragmentation of criminology; the machinery 
     is general to any longitudinal node-by-node exchange network with 
     a priori group labels.
 License: MIT + file LICENSE
