@@ -2,12 +2,6 @@ Package: citefrag
 Type: Package
 Title: Measuring Fragmentation in Longitudinal Citation Networks
 Version: 0.1.0
-Authors@R: 
-    person(given = "Zarina",
-           family = "Vakhitova",
-           role = c("aut", "cre"),
-           email = "zarina.vakhitova@monash.edu",
-           comment = c(ORCID = "0000-0003-2708-4585"))
 Description: Tools for measuring within-group versus between-group citation 
     preference in longitudinal journal panels. Provides the pair-averaged 
     within-cluster to between-cluster citation ratio under several 
@@ -37,6 +31,6 @@ Suggests:
     dplyr
 VignetteBuilder: knitr
 RoxygenNote: 7.3.3
-URL: https://zarina-vakhitova.github.io/citefrag, https://github.com/zarina-vakhitova/citefrag, https://zarina-vakhitova.github.io/citefrag/
-BugReports: https://github.com/zvakhitova/citefrag/issues
+URL: https://criminology-fragmentation.github.io/citefrag, https://github.com/criminology-fragmentation/citefrag, https://criminology-fragmentation.github.io/citefrag/
+BugReports: https://github.com/criminology-fragmentation/citefrag/issues
 Config/testthat/edition: 3
